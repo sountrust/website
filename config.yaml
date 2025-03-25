@@ -1,0 +1,33 @@
+baseURL: "https://www.sountrust.com/"
+languageCode: "en-us"
+title: "Sountrust"
+theme: "github.com/kdevo/osprey-delight/v5"
+
+params:
+ # Path to large logo (for top of the page)
+  logoBig: "images/sountrust.png"
+  
+  # Path to small logo (for navbar)
+  logoSmall: "images/sountrust.png" 
+
+  # Using mdTagline (Markdown format) for a styled tagline with a cursor
+  mdTagline: |
+    # Sountrust
+    ## Empowering SMEs with sustainable digital solutions{cursor}
+  primaryColor: "#e95a29"
+  secondaryColor: "#333333"
+  enableRobotsTXT: true
+
+outputs:
+  home: ["HTML"]
+
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 1
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 2
