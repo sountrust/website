@@ -1,0 +1,5 @@
+baseURL = "https://sountrust.com/"
+languageCode = "en-us"
+title = "Sountrust"
+theme = "minimal"
+enableRobotsTXT = true

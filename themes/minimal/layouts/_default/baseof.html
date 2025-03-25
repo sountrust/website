@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    <p style="text-align:center; font-size:0.9em; margin-top:40px;">
+      Source available on <a href="https://github.com/sountrust/website" target="_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+
+</html>
